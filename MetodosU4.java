@@ -13,16 +13,16 @@ public class MetodosU4 {
      * @param args the command line arguments
      */
      public static void main(String[] args) {
-        int resultadoSuma = suma(5, 3);
+        int resultadoSuma = MetodosU4.suma(5, 3);
         System.out.println("Suma: " + resultadoSuma);
 
-        int resultadoResta = resta(5, 3);
+        int resultadoResta = MetodosU4.resta(5, 3);
         System.out.println("Resta: " + resultadoResta);
 
-        int resultadoProducto = producto(5, 3);
+        int resultadoProducto = MetodosU4.producto(5, 3);
         System.out.println("Producto: " + resultadoProducto);
 
-        int resultadoDivision = division(6, 2);
+        int resultadoDivision = MetodosU4.division(6, 2);
         System.out.println("División: " + resultadoDivision);
     }
     public static int suma(int a, int b) {
